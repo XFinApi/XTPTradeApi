@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="XTPTradeApiSimpleDemoJavaIdeaIC2018:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/XTPTradeApiSimpleDemoJavaIdeaIC2018_jar</output-path>
+    <root id="archive" name="XTPTradeApiSimpleDemoJavaIdeaIC2018.jar">
+      <element id="module-output" name="XTPTradeApiSimpleDemoJavaIdeaIC2018" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../XTA_W32/Java/XFinApi.ITradeApi.DriverJava.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
