@@ -40,8 +40,8 @@ public:
         //地址账户
 		MarketAddress = "120.27.164.138:6002";
 		TradeAddress = "120.27.164.69:6001";
-		UserName = "15000823";//公用测试账户。为了测试准确，请注册使用您自己的账户。
-		Password = "ZthjEN0O";
+		UserName = "15031517";//公用测试账户。为了测试准确，请注册使用您自己的账户。
+		Password = "h0JeEj9t";
         AuthCode = "b8aa7173bba3470e390d787219b2112e";
         ClientID = "6";//可选，同一账户多点登录时标识不同的登录点，范围：0~255
 

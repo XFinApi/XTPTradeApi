@@ -19,8 +19,8 @@ namespace XTPTradeApiSimpleDemoCSharp2015
             //地址账户
             public string MarketAddress = "120.27.164.138:6002";
             public string TradeAddress = "120.27.164.69:6001";
-            public string UserName = "15000823";//公用测试账户。为了测试准确，请注册使用您自己的账户。
-            public string Password = "ZthjEN0O";
+            public string UserName = "15031517";//公用测试账户。为了测试准确，请注册使用您自己的账户。
+            public string Password = "h0JeEj9t";
             public string AuthCode = "b8aa7173bba3470e390d787219b2112e";
             public string ClientID = "3";//可选，同一账户多点登录时标识不同的登录点，范围：0~255
 
