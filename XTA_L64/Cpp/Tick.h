@@ -129,6 +129,8 @@ namespace TradeApi
         int OpenRestriction = INT32_DEFAULT;
 		// 业务日期
 		std::string ActionDay;
+		// 交易状态
+		InstrumentStatusKind InstrumentStatus = InstrumentStatusKind::Unknown;
 
     public:
         double GetBidPrice(int idx)

@@ -461,8 +461,48 @@ namespace XFinApi
 			AuctionBalance = 4,
 			// 集合竞价撮合
 			AuctionMatch = 5,
+			// 休市
+			Pause = 6,
 			// 收盘
-			Closed = 6
+			Closed = 7,
+			// 收盘集合竞价
+			ClosingCallAuction = 8,
+			// 波动性中断
+			Fusing = 9,
+			// 临时停牌
+			Halt = 10,
+			// 全天停牌
+			HaltAllDay = 11,
+			// 熔断(盘中集合竞价)
+			FuseToCallAuction = 12,
+			// 熔断(暂停交易至闭市)
+			FuseToClose = 13,
+			// 未知
+			Unknown = 14
+		};
+
+		// 平仓方式，
+		enum class CloseStyleTypeKind
+		{
+			// 先开先平
+			Close = 0,
+			// 先平今再平昨
+			CloseToday = 1,
+			// 先平昨再平今
+			CloseYesteryDay = 2
+		};
+
+		// 保证金价格类型
+		enum class UserRightTypeKind
+		{
+			// 昨结价
+			PreSettlementPrice = 1,
+			// 最新价
+			LastPrice = 2,
+			// 成交均价
+			AveragePrice = 3,
+			// 开仓价
+			OpenPrice = 4,
 		};
 	}
 }

@@ -186,7 +186,7 @@ static void  PrintPositionInfo(const XFinApi::TradeApi::Position &pos)
 
 static void  PrintAccountInfo(const XFinApi::TradeApi::Account &acc)
 {
-	printf("  ChangingRights=%.2f, Available=%.2f, CloseProfit=%g, Commission=%g\n",
+	printf("  Balance=%.2f, Available=%.2f, CloseProfit=%g, Commission=%g\n",
 		DEFAULT_FILTER(acc.Balance), DEFAULT_FILTER(acc.Available), 
         DEFAULT_FILTER(acc.CloseProfit), DEFAULT_FILTER(acc.Commission));
 }
